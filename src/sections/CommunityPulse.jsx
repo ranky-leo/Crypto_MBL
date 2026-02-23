@@ -28,7 +28,7 @@ export default function CommunityPulse() {
 
   return (
     <section className="relative py-[120px]">
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="max-w-[1500px] mx-auto px-6">
         <div className="mb-16">
           <h2 className="text-4xl font-bold mb-4 text-white">
             Community Pulse

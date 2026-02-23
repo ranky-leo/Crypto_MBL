@@ -28,7 +28,7 @@ export default function FeaturedArticles() {
 
   return (
     <section className="pb-[110px]">
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="max-w-[1700px] mx-auto px-6">
         <h2 className="text-2xl font-semibold text-white mb-6">
           Top Community Articles
         </h2>

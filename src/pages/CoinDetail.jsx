@@ -17,7 +17,7 @@ export default function CoinDetail() {
 
   return (
     <div className="pt-[100px] pb-[100px]">
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="max-w-[1500px] mx-auto px-6">
         {/* Header */}
         <div className="mb-10">
           <h1 className="text-4xl font-bold text-white">{symbol}</h1>

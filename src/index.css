@@ -19,6 +19,20 @@ body {
   pointer-events: none;
 }
 
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+  width: max-content;
+}
+
 @keyframes float {
   0%,
   100% {
@@ -44,4 +58,43 @@ body {
 
 .animate-marquee-left {
   animation: marquee-left 60s linear infinite;
+}
+
+/* Slider Wrapper */
+.slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 60px;
+}
+
+/* Moving Track */
+.slider-track {
+  display: flex;
+  gap: 32px;
+  width: max-content;
+  animation: scroll 40s linear infinite;
+}
+
+/* Individual Cards */
+.slider-card {
+  min-width: 300px;
+  height: 180px;
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+/* Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
 }
